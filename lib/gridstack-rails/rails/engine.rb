@@ -1,4 +1,4 @@
-module GridstackJs
+module Gridstack
   module Rails
     class Engine < ::Rails::Engine
     end

@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gridstack-js-rails/rails/version'
+require 'gridstack-rails/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'gridstack-js-rails'
-  spec.version       = GridstackJs::Rails::VERSION
+  spec.name          = 'gridstack-rails'
+  spec.version       = Gridstack::Rails::VERSION
   spec.authors       = ['antoniusdh']
   spec.email         = ['edharmowongso@gmail.com']
   spec.summary       = %q{Wrap gridstack.js library and its dependencies for rails projects}
   spec.description   = %q{Rails gridstack.js library integration. All credits for the javascript library its-self go to its creator Pavel Reznikov}
-  spec.homepage      = 'https://github.com/edharmowongso/gridstack-js-rails'
+  spec.homepage      = 'https://github.com/edharmowongso/gridstack-rails'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)

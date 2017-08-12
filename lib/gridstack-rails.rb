@@ -1,6 +1,6 @@
-require 'gridstack-js-rails/rails'
+require 'gridstack-rails/rails'
 
-module GridstackJs
+module Gridstack
   require 'lodash/rails/engine'
   require 'underscore-rails'
 end
