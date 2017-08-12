@@ -37,11 +37,8 @@ Installing from github repository allow you to chose the version to install if t
 Add this line to your application's Gemfile:
 
 ```ruby
-# To add a specific version:
-gem 'gridstack-js-rails', github: 'randoum/gridstack-js-rails', tag: 'v0.2.3'
-
 # OR to use the latest development version:
-gem 'gridstack-js-rails', github: 'randoum/gridstack-js-rails'
+gem 'gridstack-js-rails', github: 'edharmowongso/gridstack-js-rails'
 ```
 
 And then execute:

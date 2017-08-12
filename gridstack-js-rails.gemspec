@@ -6,11 +6,11 @@ require 'gridstack-js-rails/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = 'gridstack-js-rails'
   spec.version       = GridstackJs::Rails::VERSION
-  spec.authors       = ['randoum']
-  spec.email         = ['randoum@gmail.com']
+  spec.authors       = ['antoniusdh']
+  spec.email         = ['edharmowongso@gmail.com']
   spec.summary       = %q{Wrap gridstack.js library and its dependencies for rails projects}
   spec.description   = %q{Rails gridstack.js library integration. All credits for the javascript library its-self go to its creator Pavel Reznikov}
-  spec.homepage      = 'https://github.com/randoum/gridstack-js-rails'
+  spec.homepage      = 'https://github.com/edharmowongso/gridstack-js-rails'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)

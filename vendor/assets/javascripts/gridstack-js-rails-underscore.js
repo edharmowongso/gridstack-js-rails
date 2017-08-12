@@ -5,3 +5,4 @@
 //= require jquery-ui/draggable
 //= require jquery-ui/resizable
 //= require gridstack/gridstack
+//= require gridstack/gridstack.jQueryUI.js
