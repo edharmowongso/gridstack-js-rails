@@ -38,7 +38,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 # OR to use the latest development version:
-gem 'gridstack-rails', github: 'edharmowongso/gridstack-js-rails'
+gem 'gridstack-rails', github: 'edharmowongso/gridstack-rails'
 ```
 
 And then execute:
